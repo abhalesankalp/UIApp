@@ -1,0 +1,61 @@
+.FooterCss{
+    width: 100%;
+    position: absolute;
+    top: 88%;
+    background-color: rebeccapurple;
+    color: white;
+    height: 73px;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.ag-cell:hover, .delete:hover{
+  cursor: pointer;
+}
+
+.AddEmployee{
+    background-image: url('../Image/addButton.jpg');
+    width: 5%;
+    height: 5%;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 2px;
+    left:95%;
+    position: relative;
+    cursor: pointer;
+}
+
+.HeaderCss{
+    background-color: rebeccapurple;
+    color: white;
+    height: 87px;
+}
+
+.CompanyDetails{
+    width: 20%;
+    top: 20%;
+    position: relative;
+}
+
+.CompanyLogo{
+    width: 80px;
+    height: 80px;
+    background: yellow;
+    border: 3px solid red;
+    border-radius: 50%;
+    top: -16px;
+    position: relative;
+    background-image: url('../Image/clogo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.ag-header-cell-label {
+    justify-content: center !important;
+ }
+.EmployeeDetails{
+    width: 30%;
+    position: relative;
+    top: -90px;
+    left: 69%;
+    font-size: 9px;
+}
